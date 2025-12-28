@@ -1,4 +1,22 @@
 # Currency Converter
+This is a currency converter with support for local exchange rates and API updates, implemented as a Python package with a CLI.
+The project includes testing, Git Flow, and CI.
+
+Key Features:
+
+- Currency conversion using local exchange rates
+- Automatic updating of local rates via API
+- Support for multiple rate sources: local and online (API)
+- CLI for use in the terminal
+
+Project Structure:
+
+- core — contains CurrencyConverter and the RateProvider interface
+- services — implementations of rate providers:
+  - LocalRateProvider — local exchange rates
+  - ApiRateProvider — external API
+  - CachedRateProvider — automatic updating of local rates via API
+  - cli — command line interface, accepts arguments: <amount> <base> <target> [local|api]
 
 This project is currently under development.
 
