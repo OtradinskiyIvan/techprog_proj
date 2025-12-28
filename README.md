@@ -10,8 +10,8 @@ This project is currently under development.
 ## Installation
 
 1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Install the package in development mode: `pip install -e .`
+2. Install dependencies: `python -m pip install -r requirements.txt`
+3. Install the package in development mode: `python -m pip install -e .`
 
 ## Usage
 
