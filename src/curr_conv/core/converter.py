@@ -1,5 +1,5 @@
 from decimal import Decimal
-from curr_conv.core.models import ExchangeRate
+from .models import ExchangeRate
 
 
 class RateProvider:

@@ -1,6 +1,6 @@
 from decimal import Decimal
-from curr_conv.core.converter import RateProvider
-from curr_conv.core.models import ExchangeRate
+from ..core.converter import RateProvider
+from ..core.models import ExchangeRate
 
 
 class LocalRateProvider(RateProvider):
